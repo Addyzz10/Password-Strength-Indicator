@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration</h1>
+        <form id="registrationForm" action="#" method="post">
+            <!-- ... (other form fields) ... -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <div id="passwordStrength"></div>
+            </div>
+            <!-- ... (other form fields) ... -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
